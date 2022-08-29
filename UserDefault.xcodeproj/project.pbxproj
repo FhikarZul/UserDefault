@@ -14,6 +14,7 @@
 		8DFF038028BCA0A200A567B6 /* UserDefaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF037F28BCA0A200A567B6 /* UserDefaultTests.swift */; };
 		8DFF038A28BCA0A200A567B6 /* UserDefaultUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF038928BCA0A200A567B6 /* UserDefaultUITests.swift */; };
 		8DFF038C28BCA0A200A567B6 /* UserDefaultUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF038B28BCA0A200A567B6 /* UserDefaultUITestsLaunchTests.swift */; };
+		8DFF039928BCA0EC00A567B6 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFF039828BCA0EC00A567B6 /* Preferences.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		8DFF038528BCA0A200A567B6 /* UserDefaultUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserDefaultUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DFF038928BCA0A200A567B6 /* UserDefaultUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultUITests.swift; sourceTree = "<group>"; };
 		8DFF038B28BCA0A200A567B6 /* UserDefaultUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8DFF039828BCA0EC00A567B6 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				8DFF036E28BCA0A000A567B6 /* UserDefaultApp.swift */,
 				8DFF037028BCA0A000A567B6 /* ContentView.swift */,
+				8DFF039828BCA0EC00A567B6 /* Preferences.swift */,
 				8DFF037228BCA0A200A567B6 /* Assets.xcassets */,
 				8DFF037428BCA0A200A567B6 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				8DFF037128BCA0A000A567B6 /* ContentView.swift in Sources */,
 				8DFF036F28BCA0A000A567B6 /* UserDefaultApp.swift in Sources */,
+				8DFF039928BCA0EC00A567B6 /* Preferences.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
